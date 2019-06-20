@@ -13,18 +13,23 @@ Therefore, human decision making process under partial automation needs to be ex
 
 Here we will explore this topic using Jupyter notebooks and Python for live interaction with the user. I want to systematically explore surprises that occur along the way. In doing so, I want to point out various method pitfalls relating to human decisions. Sometimes, these pitfalls are present in computer automation methods.   
 
-In these examples, I will first describe a problem and the method used commonly. Then I will describe assumptions underlying the method and show that it works as intended when used on a simulation that matches the assumptions. Next I will show what happens when used on a more realitic situation simulated by a more complex model. Granted that reality is always more complex than the simulation, it does show the method problems encountered in practice.    
+In these examples, I will first describe a problem and the methods used commonly. Then I will describe assumptions underlying the methods and show that it works as intended when used on a simulation that matches the assumptions. Next I will show what happens when used on a more realitic situation simulated by a more complex model. Granted that reality is always more complex than even the complex simulation, it can show problems encountered in practice.    
 
+Topics
 
-##  Poor Control Inspite of Perfect Prediction  
+ 1. Prediction for Automation
+ 2. Poor Control Inspite of Perfect Prediction
+ 3. Errors and Uncertainty in Prediction
+ 4. Interconnted Systems
+ 
 
 It seems logical that if you want to control something, you need to measure it and predict it. 
 
-For example, if you want to achieve a particular health outcome like blood glucose level, measuring it, predicting its response to nutrition, exercise and medication seems sufficient. Once you can predict it well, then achieving your goal of controlling it appears a matter of diligent execution. 
+For example, if you want to achieve a particular health outcome like blood glucose level or blood pressure, measuring it, predicting its response to nutrition, exercise and medication seems sufficient. Once you can predict it well, then achieving your goal of controlling it appears a matter of diligent execution by chaning the inputs that can be changed. 
 
 We all know from personal experience, that it is easier said than done. 
 
+Prediction for automation is different from generic statistical prediction because errors in prediction can have drastic consequences. Moreover, it is common that new modalities of the system (the environment in RL) appear as a direct result of the use of the predictions in automation.  
 
-Although I describe a dose-response problem, the method pitfalls apply equally well to biological and non-living processes.
 
 
