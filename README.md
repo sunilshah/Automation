@@ -29,7 +29,7 @@ For example, if you want to achieve a particular health outcome like blood gluco
 
 We all know from personal experience, that it is easier said than done. 
 
-Prediction for automation is different from generic statistical prediction because errors in prediction can have drastic consequences. Moreover, it is common that new modalities of the system (the environment in RL) appear as a direct result of the use of the predictions in automation.  
+Prediction for automation is different from generic statistical prediction because errors in prediction can have drastic consequences. Moreover, it is common that new modalities of the system (the environment in RL) are discovered as a direct result of the use of the predictions in automation.  
 
 
 
