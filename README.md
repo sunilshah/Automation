@@ -25,7 +25,7 @@ Topics
 
 It seems logical that if you want to control something, you need to measure it and predict it. 
 
-For example, if you want to achieve a particular health outcome like blood glucose level or blood pressure, measuring it, predicting its response to nutrition, exercise and medication seems sufficient. Once you can predict it well, then achieving your goal of controlling it appears a matter of diligent execution by chaning the inputs that can be changed. 
+For example, if you want to achieve a particular health outcome such as blood glucose level or blood pressure, measuring it, predicting its response to nutrition, exercise and medication seems sufficient. Once you can predict it well, then achieving your goal of controlling it appears a matter of diligent execution by changing the inputs. 
 
 We all know from personal experience, that it is easier said than done. 
 
