@@ -13,7 +13,7 @@ Therefore, human decision making process under partial automation needs to be ex
 
 Here we will explore this topic using Jupyter notebooks and Python for live interaction with the user. I want to systematically explore surprises that occur along the way. In doing so, I want to point out various method pitfalls relating to human decisions. Sometimes, these pitfalls are present in computer automation methods.   
 
-In these examples, I will first describe a problem and the methods used commonly. Then I will describe assumptions underlying the methods and show that it works as intended when used on a simulation that matches the assumptions. Next I will show what happens when used on a more realistic situation simulated using a more complex model. Granted that reality is always more complex than even the complex simulation, it can show problems encountered in practice.    
+In these examples, I will first describe a problem and the methods used commonly. Then I will describe assumptions underlying the methods and show that it works as intended when used on a simulation that matches the assumptions. Next I will show what happens when used on a more realistic situation simulated using a more complex model. Granted that reality is always more complex than even the complex simulation, it can still show problems encountered in practice.    
 
 Topics
 
@@ -29,7 +29,7 @@ For example, if you want to achieve a particular health outcome such as blood gl
 
 We all know from personal experience, that it is easier said than done. 
 
-Prediction for automation is different from generic statistical prediction because errors in prediction can have drastic consequences. Moreover, it is common that new modalities of the system (the environment in RL) are discovered as a direct result of the use of the predictions to change inputs.  
+Prediction for automation is different from generic statistical prediction because errors in prediction can have drastic consequences. Moreover, it is common that new modalities of the system (the environment in Reinforcement Learning) are discovered as a direct result of the use of the predictions to change inputs.  
 
 
 
